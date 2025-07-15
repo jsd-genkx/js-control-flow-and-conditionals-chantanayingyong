@@ -25,5 +25,4 @@ switch (fruit) {
 		break;
 	default:
     	console.log("Unknown fruit."); 
-		break;
 }
