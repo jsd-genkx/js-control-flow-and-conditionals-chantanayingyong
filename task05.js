@@ -2,17 +2,16 @@
 
 // TODO: Convert this if to switch/case (You can add more options.)
 
-const fruit = "banana";
-
-if (fruit === "apple") {
-	console.log("An apple a day keeps the doctor away.");
-} else if (fruit === "banana") {
-	console.log("Banana is good for potassium.");
-} else if (fruit === "orange") {
-	console.log("Oranges are full of vitamin C.");
-} else {
-	console.log("Unknown fruit.");
-}
+// if (fruit === "apple") {
+// 	console.log("An apple a day keeps the doctor away.");
+// } else if (fruit === "banana") {
+// 	console.log("Banana is good for potassium.");
+// } else if (fruit === "orange") {
+// 	console.log("Oranges are full of vitamin C.");
+// } else {
+// 	console.log("Unknown fruit.");
+// }
+const fruit = "apple";
 
 switch (fruit) {
 	case "apple":
@@ -25,6 +24,6 @@ switch (fruit) {
 		console.log("Oranges are full of vitamin C.");
 		break;
 	default:
-    	console.log("Unknown fruit.");
-    break;
+    	console.log("Unknown fruit."); 
+		break;
 }
