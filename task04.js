@@ -6,8 +6,6 @@
 // Divisible by only 5 → "Buzz"
 // Otherwise → "Not divisible by 3 or 5"
 
-// TODO BONUS: Rewrite with if
-
 const num = 15;
 if (num%3 === 0 && num%5 === 0) {
     console.log("FizzBuzz");
@@ -21,3 +19,17 @@ if (num%3 === 0 && num%5 === 0) {
     else {
         console.log("Not divisible by 3 or 5");
     }
+
+// TODO BONUS: Rewrite with if
+
+let result = "";
+if (num % 3 === 0){
+    result += "Fizz";
+}
+if (num % 5 === 0){
+    result += "Buzz";
+}
+if (result === ""){
+    result += "Not divisible by 3 or 5";
+}
+console.log(result);
